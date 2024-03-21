@@ -1,0 +1,76 @@
+
+
+body{
+    margin-top: 14vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text{
+    width: 400px;
+    margin: 0 auto -57px auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+.picture{
+    width: 400px;
+    height: 300px;
+}
+
+.buttons{
+    width: 60px;
+}
+
+.outputs{
+    width: 60px;
+}
+
+.trigger{
+    width: 520px;
+    height: 600px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    user-select: none;
+    margin: 65px 0 45px 0;
+    font-size: 2.5em;
+}
+
+.in{
+    background: #c5c7c8;
+}
+
+.start{
+    width: 200px;
+    margin-top:  -90px;
+    background: #f1af07;
+}
+
+.Q{
+    background: #c5c7c8;
+}
+
+.nQ{
+    background: #f1af07;
+}
+
+.btn:hover{
+    filter: brightness(120%);
+}
+
+.btn:active{
+    filter: brightness(90%);
+}
+
